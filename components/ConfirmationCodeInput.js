@@ -197,7 +197,7 @@ export default class ConfirmationCodeInput extends Component {
     if (e.nativeEvent.key === 'Backspace') {
       const { currentIndex } = this.state;
       const nextIndex = currentIndex > 0 ? currentIndex - 1 : 0;
-      this._setFocus(nextIndex);
+      //this._setFocus(nextIndex);
     }
   }
   
